@@ -1,5 +1,5 @@
 <template>
-    <p>404 page not found</p>
+    <p>404 page not found!!!</p>
 </template>
 <style lang="scss">
 </style>
