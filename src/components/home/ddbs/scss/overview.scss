@@ -1,0 +1,100 @@
+.overview {
+    height: calc(100% - 24px);
+    .object-nav {
+        background: white;
+        height: 47px;
+        border-bottom: 1px #d9dadb solid;
+    }
+    .dss-page {
+        margin: 10px;
+        height: calc(100% - 72px);
+        .profile {
+            height: 40px;
+            line-height: 30px;
+            font-size: 16px;
+        }
+        .cluster-box {
+            border: 1px #d9dadb solid;
+            margin-bottom: 10px;
+            background: white;
+            .tit {
+                height: 40px;
+                line-height: 40px;
+            }
+            .section {
+                height: 250px;
+                .item {
+                    height: 50%;
+                    position: relative;
+                    width: 100%;
+                    clear: both;
+                    .label {
+                        height: 50px;
+                        line-height: 50px;
+                        text-align: center;
+                        width: 130px;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+                    .usage-block {
+                        height: 50px;
+                        margin-left: 160px;
+                        margin-right: 10px;
+                        .top-left {
+                            float: left;
+                            margin-left: 3px;
+                            padding-bottom: 13px;
+                            color: #e43a1b;
+                        }
+                        .top-right {
+                            float: right;
+                            padding-bottom: 13px;
+                            color: #27CBF1;
+                            text-align: right;
+                        }
+                        .bottom-left {
+                            height: 20px;
+                            width: 30%;
+                            float: left;
+                            color: rgb(74, 144, 226);
+                        }
+                        .bottom-mid {
+                            height: 20px;
+                            width: 30%;
+                            float: left;
+                            color: rgb(184, 233, 134);
+                        }
+                        .bottom-right {
+                            height: 20px;
+                            width: 30%;
+                            float: right;
+                            color: rgb(171, 171, 171);
+                            text-align: right;
+                        }
+                        .usage {
+                            clear: both;
+                            height: 30px;
+                            border: 1px #d9dadb solid;
+                            box-sizing: border-box;
+                            background-color: rgba(244, 244, 244, 1);
+                            position: relative;
+                            .usage-cent {
+                                height: 100%;
+                                position: absolute;
+                                width: 100%;
+                                top: 0;
+                                left: 0;
+                                &.a {
+                                    width: 7%;
+                                    z-index: 3;
+                                    background-color: rgb(73, 144, 226);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

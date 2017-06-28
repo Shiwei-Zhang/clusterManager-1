@@ -1,0 +1,38 @@
+#clusterManager {
+    ul,
+    li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    .bar {
+        height: 24px;
+        background-color: #333;
+        color: #fff;
+        .top-manager {
+            height: 100%;
+            margin-left: 10px;
+            float: left;
+            li {
+                width: 80px;
+                text-align: center;
+                line-height: 24px;
+                float: left;
+                cursor: pointer;
+                &.logo {
+                    width: 100px;
+                }
+            }
+        }
+    }
+    .hu {
+        width: 100%;
+        height: 100px;
+        color: red;
+    }
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
